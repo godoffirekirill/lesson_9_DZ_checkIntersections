@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF5CA252AC1FA9D00A687FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA242AC1FA9D00A687FC /* AppDelegate.swift */; };
+		EDF5CA272AC1FA9D00A687FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA262AC1FA9D00A687FC /* SceneDelegate.swift */; };
+		EDF5CA292AC1FA9D00A687FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA282AC1FA9D00A687FC /* ViewController.swift */; };
+		EDF5CA2C2AC1FA9D00A687FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF5CA2A2AC1FA9D00A687FC /* Main.storyboard */; };
+		EDF5CA2E2AC1FA9E00A687FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF5CA2D2AC1FA9E00A687FC /* Assets.xcassets */; };
+		EDF5CA312AC1FA9E00A687FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF5CA2F2AC1FA9E00A687FC /* LaunchScreen.storyboard */; };
+		EDF5CA3C2AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA3B2AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleTests.swift */; };
+		EDF5CA462AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA452AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITests.swift */; };
+		EDF5CA482AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5CA472AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF5CA382AC1FA9E00A687FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF5CA192AC1FA9D00A687FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF5CA202AC1FA9D00A687FC;
+			remoteInfo = "Lesson 9 DZ CreateCircle";
+		};
+		EDF5CA422AC1FA9E00A687FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF5CA192AC1FA9D00A687FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF5CA202AC1FA9D00A687FC;
+			remoteInfo = "Lesson 9 DZ CreateCircle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF5CA212AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 9 DZ CreateCircle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5CA242AC1FA9D00A687FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF5CA262AC1FA9D00A687FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF5CA282AC1FA9D00A687FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF5CA2B2AC1FA9D00A687FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF5CA2D2AC1FA9E00A687FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF5CA302AC1FA9E00A687FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF5CA322AC1FA9E00A687FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF5CA372AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 9 DZ CreateCircleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5CA3B2AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_9_DZ_CreateCircleTests.swift; sourceTree = "<group>"; };
+		EDF5CA412AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 9 DZ CreateCircleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5CA452AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_9_DZ_CreateCircleUITests.swift; sourceTree = "<group>"; };
+		EDF5CA472AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF5CA1E2AC1FA9D00A687FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA342AC1FA9E00A687FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA3E2AC1FA9E00A687FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF5CA182AC1FA9D00A687FC = {
+			isa = PBXGroup;
+			children = (
+				EDF5CA232AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */,
+				EDF5CA3A2AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests */,
+				EDF5CA442AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests */,
+				EDF5CA222AC1FA9D00A687FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF5CA222AC1FA9D00A687FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5CA212AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle.app */,
+				EDF5CA372AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests.xctest */,
+				EDF5CA412AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF5CA232AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5CA242AC1FA9D00A687FC /* AppDelegate.swift */,
+				EDF5CA262AC1FA9D00A687FC /* SceneDelegate.swift */,
+				EDF5CA282AC1FA9D00A687FC /* ViewController.swift */,
+				EDF5CA2A2AC1FA9D00A687FC /* Main.storyboard */,
+				EDF5CA2D2AC1FA9E00A687FC /* Assets.xcassets */,
+				EDF5CA2F2AC1FA9E00A687FC /* LaunchScreen.storyboard */,
+				EDF5CA322AC1FA9E00A687FC /* Info.plist */,
+			);
+			path = "Lesson 9 DZ CreateCircle";
+			sourceTree = "<group>";
+		};
+		EDF5CA3A2AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5CA3B2AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleTests.swift */,
+			);
+			path = "Lesson 9 DZ CreateCircleTests";
+			sourceTree = "<group>";
+		};
+		EDF5CA442AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5CA452AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITests.swift */,
+				EDF5CA472AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 9 DZ CreateCircleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF5CA202AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF5CA4B2AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircle" */;
+			buildPhases = (
+				EDF5CA1D2AC1FA9D00A687FC /* Sources */,
+				EDF5CA1E2AC1FA9D00A687FC /* Frameworks */,
+				EDF5CA1F2AC1FA9D00A687FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 9 DZ CreateCircle";
+			productName = "Lesson 9 DZ CreateCircle";
+			productReference = EDF5CA212AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF5CA362AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF5CA4E2AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircleTests" */;
+			buildPhases = (
+				EDF5CA332AC1FA9E00A687FC /* Sources */,
+				EDF5CA342AC1FA9E00A687FC /* Frameworks */,
+				EDF5CA352AC1FA9E00A687FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF5CA392AC1FA9E00A687FC /* PBXTargetDependency */,
+			);
+			name = "Lesson 9 DZ CreateCircleTests";
+			productName = "Lesson 9 DZ CreateCircleTests";
+			productReference = EDF5CA372AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF5CA402AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF5CA512AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircleUITests" */;
+			buildPhases = (
+				EDF5CA3D2AC1FA9E00A687FC /* Sources */,
+				EDF5CA3E2AC1FA9E00A687FC /* Frameworks */,
+				EDF5CA3F2AC1FA9E00A687FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF5CA432AC1FA9E00A687FC /* PBXTargetDependency */,
+			);
+			name = "Lesson 9 DZ CreateCircleUITests";
+			productName = "Lesson 9 DZ CreateCircleUITests";
+			productReference = EDF5CA412AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF5CA192AC1FA9D00A687FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EDF5CA202AC1FA9D00A687FC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EDF5CA362AC1FA9E00A687FC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDF5CA202AC1FA9D00A687FC;
+					};
+					EDF5CA402AC1FA9E00A687FC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDF5CA202AC1FA9D00A687FC;
+					};
+				};
+			};
+			buildConfigurationList = EDF5CA1C2AC1FA9D00A687FC /* Build configuration list for PBXProject "Lesson 9 DZ CreateCircle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF5CA182AC1FA9D00A687FC;
+			productRefGroup = EDF5CA222AC1FA9D00A687FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF5CA202AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */,
+				EDF5CA362AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleTests */,
+				EDF5CA402AC1FA9E00A687FC /* Lesson 9 DZ CreateCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF5CA1F2AC1FA9D00A687FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5CA312AC1FA9E00A687FC /* LaunchScreen.storyboard in Resources */,
+				EDF5CA2E2AC1FA9E00A687FC /* Assets.xcassets in Resources */,
+				EDF5CA2C2AC1FA9D00A687FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA352AC1FA9E00A687FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA3F2AC1FA9E00A687FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF5CA1D2AC1FA9D00A687FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5CA292AC1FA9D00A687FC /* ViewController.swift in Sources */,
+				EDF5CA252AC1FA9D00A687FC /* AppDelegate.swift in Sources */,
+				EDF5CA272AC1FA9D00A687FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA332AC1FA9E00A687FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5CA3C2AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF5CA3D2AC1FA9E00A687FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5CA482AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITestsLaunchTests.swift in Sources */,
+				EDF5CA462AC1FA9E00A687FC /* Lesson_9_DZ_CreateCircleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF5CA392AC1FA9E00A687FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF5CA202AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */;
+			targetProxy = EDF5CA382AC1FA9E00A687FC /* PBXContainerItemProxy */;
+		};
+		EDF5CA432AC1FA9E00A687FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF5CA202AC1FA9D00A687FC /* Lesson 9 DZ CreateCircle */;
+			targetProxy = EDF5CA422AC1FA9E00A687FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF5CA2A2AC1FA9D00A687FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF5CA2B2AC1FA9D00A687FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF5CA2F2AC1FA9E00A687FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF5CA302AC1FA9E00A687FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF5CA492AC1FA9E00A687FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF5CA4A2AC1FA9E00A687FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF5CA4C2AC1FA9E00A687FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 9 DZ CreateCircle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF5CA4D2AC1FA9E00A687FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 9 DZ CreateCircle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF5CA4F2AC1FA9E00A687FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 9 DZ CreateCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 9 DZ CreateCircle";
+			};
+			name = Debug;
+		};
+		EDF5CA502AC1FA9E00A687FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 9 DZ CreateCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 9 DZ CreateCircle";
+			};
+			name = Release;
+		};
+		EDF5CA522AC1FA9E00A687FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 9 DZ CreateCircle";
+			};
+			name = Debug;
+		};
+		EDF5CA532AC1FA9E00A687FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-9-DZ-CreateCircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 9 DZ CreateCircle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF5CA1C2AC1FA9D00A687FC /* Build configuration list for PBXProject "Lesson 9 DZ CreateCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5CA492AC1FA9E00A687FC /* Debug */,
+				EDF5CA4A2AC1FA9E00A687FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF5CA4B2AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5CA4C2AC1FA9E00A687FC /* Debug */,
+				EDF5CA4D2AC1FA9E00A687FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF5CA4E2AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5CA4F2AC1FA9E00A687FC /* Debug */,
+				EDF5CA502AC1FA9E00A687FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF5CA512AC1FA9E00A687FC /* Build configuration list for PBXNativeTarget "Lesson 9 DZ CreateCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5CA522AC1FA9E00A687FC /* Debug */,
+				EDF5CA532AC1FA9E00A687FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF5CA192AC1FA9D00A687FC /* Project object */;
+}
